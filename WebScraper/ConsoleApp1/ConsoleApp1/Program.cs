@@ -15,7 +15,7 @@ namespace WebScraper
 
                 while (!CheckUrl(url, client))
                 {
-                    Console.WriteLine("Write the website you would want to scrape");
+                    Console.WriteLine("Write the website url you would want to scrape");
                     url = Console.ReadLine();
                     if (!url.Contains("http"))
                     {
