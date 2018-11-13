@@ -28,7 +28,7 @@ namespace WebScraper
                     }
                 }
 
-                if (quit == false)
+                if (!quit)
                 {
                     Scrape(url, client);
                 }
